@@ -1,0 +1,221 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑"}
+body,html{
+	width: 720px;
+	margin: 0 auto;
+	color: #333333;
+}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+input{outline: none}
+header{
+	width: 720px;
+	height: 50px;
+	overflow: hidden;
+	background: #1b1b1b;
+}
+header img{
+	float: left;
+	margin-top: 4px;
+	margin-left: 10px;
+	width: 79px;
+}
+header h1{
+	color: #fff;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+header p{
+	font-size: 15px;
+	height: 100%;
+	padding-left: 35px;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-right: 8px;
+	line-height: 50px;
+	background: url(../images/phone.png) no-repeat 0 center;
+}
+.banner{
+    overflow: hidden;
+}
+.banner img{
+    width: 720px;
+    display: block;
+}
+.main{
+	width: 700px;
+	height: 1133px;
+	margin: 40px auto 0;
+	border-radius: 50px 50px 0 0;
+	border: 1px solid #eee;
+	box-shadow: 0px 0px 10px 5px #eee;
+	background: url(../images/m2.png) no-repeat 40px 898px;
+}
+.intro{
+	overflow: hidden;
+	width: 700px;
+	height: 206px;
+	border-radius: 50px 50px 0 0;
+	background: #fffad8;
+}
+.intro b{
+	float: left;
+	margin-left: 66px;
+	margin-top: 52px;
+	width: 116px;
+	height: 96px;
+	background: url(../images/m1.png) no-repeat center;
+	font-size: 36px;
+	line-height: 40px;
+	padding-left: 30px;
+	padding-top: 14px;
+}
+.intro p{
+	float: left;
+	margin-left: 18px;
+	font-size: 24px;
+	line-height: 42px;
+	margin-top: 44px;
+}
+.main form{
+	margin-top: 16px;
+	overflow: hidden;
+	padding-left: 40px;
+}
+.main form div{
+	overflow: hidden;
+	margin-top: 20px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 0
+}
+.main form div span{
+	display: inline-block;
+	width: 178px;
+	font-size: 24px;
+	line-height: 24px;
+}
+.main form div input,.main form div select{
+	box-sizing: border-box;
+	width: 416px;
+	height: 60px;
+	border: 1px solid #999999;
+	font-size: 24px;
+	padding-left: 10px;
+}
+.user-phone{
+	overflow: hidden;
+}
+.user-phone span{
+	float: left;
+	line-height: 60px!important;
+}
+.user-phone input{
+	width: 250px!important;
+	float: left;
+}
+.main form .user-phone a{
+	float: left;
+	width: 166px;
+	height: 60px;
+	background: #352400;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+	font-size: 24px;
+	box-sizing: border-box;
+}
+.main form > input{
+	display: block;
+	width: 344px;
+	height: 70px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 10px;
+	background: #dd2723;
+	border: none;
+	margin-left: 130px;
+	margin-top: 46px;
+}
+.teacher-show{
+	overflow: hidden;
+	text-align: center;
+}
+.teacher-show h2{
+	font-size: 40px;
+	color: #352400;
+	line-height: 40px;
+	margin-top: 60px;
+}
+.teacher-show > p{
+	font-size: 20px;
+	line-height: 34px;
+	margin-top: 22px;
+}
+#swiper{
+	width: 686px;
+	margin: 46px auto 0
+}
+#swiper .swiper-button-next,#swiper .swiper-button-prev{
+	width: 41px;
+	height: 82px;
+}
+#swiper .swiper-button-next{
+	right: 0;
+	background: url(../images/right.png) no-repeat center;
+	background-size: 41px;
+}
+#swiper .swiper-button-prev{
+	left: 0;
+	background: url(../images/left.png) no-repeat center;
+	background-size: 41px;
+}
+.last-main h2{
+	font-size: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: url(../images/m16.png) no-repeat center;
+	margin-top: 60px;
+}
+.last-main a{
+	display: block;
+	width: 320px;
+	height: 96px;
+	text-align: center;
+	line-height: 96px;
+	font-size: 30px;
+	color: #fff;
+	border-radius: 8px;
+	background: #ec3330;
+	margin: 40px auto 130px;
+	font-weight: bold;
+}
+.fix{
+    width: 720px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 68px;
+    z-index:999;
+}
+.fix a{
+    display: block;
+    flex:1;
+    height: 100%;
+    text-align: center;
+    line-height: 68px;
+    font-size: 24px;
+    color: #fff
+}
+.fix1{
+    background: url(../images/fix1.png) no-repeat 15% center #000;
+}
+.fix2{
+    background: url(../images/fix2.png) no-repeat 15% center #e62929;
+}
